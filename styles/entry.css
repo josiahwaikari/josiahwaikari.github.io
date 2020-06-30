@@ -34,3 +34,9 @@ body {
     color: #212121;
     transition: .3s;
 }
+
+.container {
+    margin: 10px auto;
+    width: 80%;
+    height: auto;
+}
