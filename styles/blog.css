@@ -72,11 +72,11 @@ body {
     color: rgb(255, 99, 8);
 }
 
-a:link, a:visited {
+a.name:link, a.name:visited {
     color: rgb(255, 99, 8);
     text-decoration: none;
 }
 
-a:hover, a:active {
+a.name:hover, a.name:active {
     color: rgb(253, 154, 97);
 }
