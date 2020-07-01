@@ -27,6 +27,18 @@
             <h1>Relative, Absolute and Fixed Positioning</h1>
             <h2>Every single element on a webpage is a block. A rectangle of pixels which is referred to as the "box model" which is essentially a box that wraps around each and every HTML element. It consists margins, border, padding and the actual content. Positioning enables us to be able to move that block of pixels anywhere on the page</h2>
             <h3>by <span>josiah waikari</span> • 1 july 2020</h3>
+
+            <h1>Relative</h1>
+            <p>This positions your element relative to the placement of itself which is where it normally would be placed by default. By defining the position property to value relative, it allows us to set top, right, bottom, and left properties which will cause it to be "nudged" away from it's normal position.</p>
+            <p>Example: here are three div tags, box 2 has the property position set to relative with additional properties defining top and left. This has moved the box-2 element 10px from the left and 10px from the top relative from its original position in the document.</p>
+            
+            <h1>Absolute</h1>
+            <p>Removes the element from the flow of the document and allows it to be positioned relative to it's nearest defined relatively positioned parent element. When there is no positioned parent element, it will be positioned relative to the document body. It's like a sticky note, you can pick it up and put it wherever you want.</p>
+            <p>Example: here we have a parent div tag which has the property position set to relative and box-2 div tag which has the property position set to absolute. we give right and bottom properties to the box-2 element to move it in relation to it's parent element. box-3 moves up to occupy the space vacated by box-2</p>
+
+            <h1>Fixed</h1>
+            <p>An element that has a position of fixed is similar to the absolute positioning, inheriting all of it's rules except that it's positioned relative to the viewport (browser/device). This means that it will always stay in the same place even if the page is scrolled.</p>
+            <p>Example:</p>
         </div>
     </div>
 </body>
