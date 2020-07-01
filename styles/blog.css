@@ -71,3 +71,12 @@ body {
 .blog__post span {
     color: rgb(255, 99, 8);
 }
+
+a:link, a:visited {
+    color: rgb(255, 99, 8);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: rgb(253, 154, 97);
+}
