@@ -72,6 +72,10 @@ body {
     color: rgb(255, 99, 8);
 }
 
+.blog__post ol {
+    margin-left: 1.5rem;
+    list-style-type: decimal;
+}
 a.name:link, a.name:visited {
     color: rgb(255, 99, 8);
     text-decoration: none;
