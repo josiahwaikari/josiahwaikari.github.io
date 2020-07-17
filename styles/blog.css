@@ -77,6 +77,11 @@ body {
     list-style-type: decimal;
 }
 
+.blog__post ul {
+    margin-left: 1.5rem;
+    list-style-type: circle;
+}
+
 .blog__post pre {
     background: #f4f4f4;
     border: 1px solid #ddd;
