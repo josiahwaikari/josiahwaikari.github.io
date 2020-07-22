@@ -55,10 +55,11 @@ body {
     font-weight: 600;
 }
 
-/* .blog__post h2 {
+.blog__post .meta-desc {
     opacity: 0.7;
     line-height: 1.6;
-} */
+    display: block;
+}
 
 .blog__post .meta-user {
     margin: 20px 0;
@@ -66,6 +67,7 @@ body {
     text-transform: capitalize;
     font-weight: 600;
     font-size: .9rem;
+    display: block;
 }
 
 .blog__post p {
