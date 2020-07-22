@@ -60,7 +60,7 @@ body {
     line-height: 1.6;
 } */
 
-.blog__post h3 {
+.blog__post .meta-user {
     margin: 20px 0;
     color: #34403e;
     text-transform: capitalize;
@@ -73,7 +73,7 @@ body {
     color: #343a40;
 }
 
-.blog__post span {
+.blog__post a.name {
     color: rgb(255, 99, 8);
 }
 
