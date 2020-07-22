@@ -41,13 +41,13 @@ body {
     height: auto;
 }
 
-.blog__entries {
+.entries {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.blog__entries > article {
+.entries > article {
     background-color: #fff;
     width: 400px;
     margin: 10px;
@@ -55,17 +55,17 @@ body {
     position: relative;
 }
 
-.blog__entries img {
+.entries img {
     width: 100%;
     height: auto;
 }
 
-.blog__info {
+.info {
     background-color: #fff;
     padding: 20px 40px 40px 40px;
 }
 
-.blog__info h3 {
+.info h3 {
     color: rgb(25, 30, 41);
     font-size: 2rem;
     margin: 10px 0;
@@ -74,7 +74,7 @@ body {
     font-weight: 600;
 }
 
-.blog__info a {
+.info a {
     color: #00d2ff;
     color: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
     color: linear-gradient(to right, #3a7bd5, #00d2ff);
