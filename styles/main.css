@@ -45,6 +45,18 @@
   }
 }
 
+.container {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.heading h2 {
+  color: #4e5863;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: .7em;
+}
+
 .center {
     display: flex;
     flex-direction: column;
