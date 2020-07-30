@@ -1,79 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/ed2f6402c8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/entry.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ed2f6402c8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/entry.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Games</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar" id="navigation">
-            <a href="/">josiahwaikari</a>
-            <a href="/about">About</a>
-            <a href="/entries">Blog</a>
-            <a href="/games">Games</a>
-            <a href="javascript:void(0);" class="icon" onclick="nav()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </nav>
+      <nav class="navbar" id="navigation">
+        <a href="/">josiahwaikari</a>
+        <a href="/about">About</a>
+        <a href="/entries">Blog</a>
+        <a href="/games">Games</a>
+        <a href="javascript:void(0);" class="icon" onclick="nav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
     </header>
 
-    <div class="container">
-        <div class="heading">
-            <h2>Games</h2>
-            <p>check out the games I have built</p>
-        </div>
-    
-        <div class="entries">
+    <section class="recent">
+      <h2 class="meta-title">Recent Game</h2>
+      <a href="/games/inflate-the-unicorn/">
+        <article class="recent-card">
+          <img
+            src="https://images.unsplash.com/photo-1562037283-072818fb6d8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1987&q=80"
+            alt=""
+          />
+          <div class="recent-content">
+            <h2>Inflate The Unicorn</h2>
+            <p><i class="far fa-clock"></i><span>22nd july 2020</span></p>
+          </div>
+        </article>
+      </a>
+    </section>
 
-            <article>
-                <img src="https://store-images.s-microsoft.com/image/apps.5588.13510798887052059.b8c39fa4-547b-4a09-9e3b-99028fbb9f98.5ba85e5a-824b-4683-a5ee-72ac93d3e030?mode=scale&q=90&h=400&w=800&background=%231B372E">
-                <div class="info">
-                    <h3>Minesweeper</h3>
-                    <a href="/minesweeper">Play Game <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+    <section class="entries">
+      <h2 class="meta-title">Games</h2>
 
-            <article>
-                <img src="https://religionnews.com/wp-content/uploads/2019/01/1.15.19-screen-shot-2-parable-whack-a-mole.png">
-                <div class="info">
-                    <h3>Whack A Mole</h3>
-                    <a href="/games/whack-a-mole/">Play Game <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+      <div class="cards">
+        <a href="/minesweeper">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1577307559749-82f2de988a9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+              alt=""
+            />
+            <div class="content">
+              <h3>game</h3>
+              <h2>Minesweeper</h2>
+              <p><i class="far fa-clock"></i><span>17th july 2020</span></p>
+            </div>
+          </article>
+        </a>
 
-            <article>
-                <img src="https://i.redd.it/kziqgnqhygr21.jpg">
-                <div class="info">
-                    <h3>Dress The Clown</h3>
-                    <a href="/games/dress-the-clown/">Play Game <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+        <a href="/games/whack-a-mole/">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1503835227138-d7e43a18c79f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+              alt=""
+            />
+            <div class="content">
+              <h3>game</h3>
+              <h2>Whack A Mole</h2>
+              <p><i class="far fa-clock"></i><span>17th july 2020</span></p>
+            </div>
+          </article>
+        </a>
 
-            <article>
-                <img src="https://cdn3.f-cdn.com/contestentries/1276599/21054869/5aa7109e790d5_thumb900.jpg">
-                <div class="info">
-                    <h3>Inflate The Unicorn</h3>
-                    <a href="/games/inflate-the-unicorn/">Play Game <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
-
-        </div>
-    </div>
+        <a href="/games/dress-the-clown/">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1571274634676-23f4fa37b0df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1027&q=80"
+              alt=""
+            />
+            <div class="content">
+              <h3>game</h3>
+              <h2>Dress The Clown</h2>
+              <p><i class="far fa-clock"></i><span>17th july 2020</span></p>
+            </div>
+          </article>
+        </a>
+      </div>
+    </section>
     <script>
-        function nav() {
-          let x = document.getElementById("navigation");
-          if (x.className === "navbar") {
-            x.className += " responsive";
-          } else {
-            x.className = "navbar";
-          }
+      function nav() {
+        let x = document.getElementById("navigation");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
         }
-      </script>
-</body>
+      }
+    </script>
+  </body>
 </html>
