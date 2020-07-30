@@ -1,117 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/ed2f6402c8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/entry.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ed2f6402c8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/entry.css" />
     <title>Blog Entries</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar" id="navigation">
-            <a href="/">josiahwaikari</a>
-            <a href="/about">About</a>
-            <a href="/entries">Blog</a>
-            <a href="/games">Games</a>
-            <a href="javascript:void(0);" class="icon" onclick="nav()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </nav>
+      <nav class="navbar" id="navigation">
+        <a href="/">josiahwaikari</a>
+        <a href="/about">About</a>
+        <a href="/entries">Blog</a>
+        <a href="/games">Games</a>
+        <a href="javascript:void(0);" class="icon" onclick="nav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
     </header>
 
-    <div class="container">
-        <div class="heading">
-            <h2>blog entries</h2>
-            <p>check out my latest blog posts</p>
-        </div>
-    
-        <div class="entries">
+    <section class="recent">
+      <h2 class="meta-title">Recent Blog</h2>
+      <a href="/blog/sprint5-cultural">
+        <article class="recent-card">
+          <img
+            src="https://images.unsplash.com/photo-1528492501711-867fd2c44bb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+            alt=""
+          />
+          <div class="recent-content">
+            <h2>My Reflections (Sprint 5)</h2>
+            <p><i class="far fa-clock"></i><span>17th july 2020</span></p>
+          </div>
+        </article>
+      </a>
+    </section>
 
-            <article>
-                <img src="https://gradientjoy.com/200x100">
-                <div class="info">
-                    <h3>Sprint 5 Reflections</h3>
-                    <a href="/blog/sprint5-cultural">Explore story <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+    <section class="entries">
+      <h2 class="meta-title">Blogs</h2>
 
-            <article>
-                <img src="https://gradientjoy.com/200x100">
-                <div class="info">
-                    <h3>Problem Solving</h3>
-                    <a href="/blog/sprint4-technical">Explore story <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+      <div class="cards">
 
-            <article>
-                <img src="https://gradientjoy.com/200x100">
-                <div class="info">
-                    <h3>Neuroplasticity and Growth Mindset</h3>
-                    <a href="/blog/sprint4-cultural">Explore story <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+        <a href="/blog/sprint4-technical">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1539627831859-a911cf04d3cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80"
+              alt=""
+            />
+            <div class="content">
+              <h3>technical</h3>
+              <h2>Problem Solving</h2>
+              <p><i class="far fa-clock"></i><span>17th july 2020</span></p>
+            </div>
+          </article>
+        </a>
 
-            <article>
-                <img src="https://gradientjoy.com/200x100">
-                <div class="info">
-                    <h3>Technical Blog</h3>
-                    <a href="/blog/sprint3_technical">Explore story <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+        <a href="/blog/sprint4-cultural">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              alt=""
+            />
+            <div class="content">
+              <h3>science</h3>
+              <h2>Neuroplasticity & Growth Mindset</h2>
+              <p><i class="far fa-clock"></i><span>17th july 2020</span></p>
+            </div>
+          </article>
+        </a>
 
-            <article>
-                <img src="https://gradientjoy.com/200x100">
-                <div class="info">
-                    <h3>Emotional Intelligence and IQ</h3>
-                    <a href="/blog/sprint3-cultural">Explore story <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+        <a href="/blog/sprint3_technical">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80"
+              alt=""
+            />
+            <div class="content">
+              <h3>technical</h3>
+              <h2>Technical Blog</h2>
+              <p><i class="far fa-clock"></i><span>11th july 2020</span></p>
+            </div>
+          </article>
+        </a>
 
-            <article>
-                <img src="https://gradientjoy.com/200x100">
-                <div class="info">
-                    <h3>The Story of <br>Te Houtaewa</h3>
-                    <a href="/blog/sprint1-technical">Explore story <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+        <a href="/blog/sprint3-cultural">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1494869042583-f6c911f04b4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              alt=""
+            />
+            <div class="content">
+              <h3>science</h3>
+              <h2>Emotional Intelligence and IQ</h2>
+              <p><i class="far fa-clock"></i><span>11th july 2020</span></p>
+            </div>
+          </article>
+        </a>
 
-            <article>
-                <img src="https://gradientjoy.com/200x100">
-                <div class="info">
-                    <h3>Relative, Absolute and Fixed Positioning</h3>
-                    <a href="/blog/sprint2-technical">Explore story <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+        <a href="/blog/sprint2-technical">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+              alt=""
+            />
+            <div class="content">
+              <h3>technical</h3>
+              <h2>Relative, Absolute and Fixed Positioning</h2>
+              <p><i class="far fa-clock"></i><span>1st july 2020</span></p>
+            </div>
+          </article>
+        </a>
 
-            <article>
-                <img src="https://gradientjoy.com/200x100">
-                <div class="info">
-                    <h3>My Reflections</h3>
-                    <a href="/blog/sprint2-cultural">Explore story <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+        <a href="/blog/sprint2-cultural">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1494797262163-102fae527c62?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+              alt=""
+            />
+            <div class="content">
+              <h3>self-exploration</h3>
+              <h2>My Reflections</h2>
+              <p><i class="far fa-clock"></i><span>2nd july 2020</span></p>
+            </div>
+          </article>
+        </a>
 
-            <article>
-                <img src="https://gradientjoy.com/200x100">
-                <div class="info">
-                    <h3>Identity, Values and Strengths</h3>
-                    <a href="/blog/sprint1-cultural">Explore story <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
+        <a href="/blog/sprint1-cultural">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1532009877282-3340270e0529?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+              alt=""
+            />
+            <div class="content">
+              <h3>self-exploration</h3>
+              <h2>Identity, Values and Strengths</h2>
+              <p><i class="far fa-clock"></i><span>2nd july 2020</span></p>
+            </div>
+          </article>
+        </a>
 
-        </div>
-    </div>
+        <a href="/blog/sprint1-technical">
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1494806465803-34e97e0ec1c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80"
+              alt=""
+            />
+            <div class="content">
+              <h3>unknown</h3>
+              <h2>The Story of Te Houtaewa</h2>
+              <p><i class="far fa-clock"></i><span>10th november 2010</span></p>
+            </div>
+          </article>
+        </a>
+      </div>
+    </section>
+
     <script>
-        function nav() {
-          let x = document.getElementById("navigation");
-          if (x.className === "navbar") {
-            x.className += " responsive";
-          } else {
-            x.className = "navbar";
-          }
+      function nav() {
+        let x = document.getElementById("navigation");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
         }
-      </script>
-</body>
+      }
+    </script>
+  </body>
 </html>
